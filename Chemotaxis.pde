@@ -112,14 +112,14 @@ class Walker
     ellipse(myX, myY+15, 50, 30); //torso
     bezier(myX+10, myY+30, myX+32, myY+22, myX+32, myY+22, myX+35, myY); //tail
     fill(229, 103, 103); // happi tongue
-    ellipse (myX+2, myY+7, 8, 10);
+    ellipse (myX+2, myY+6, 10, 9);
     fill(0);
-    ellipse (myX+10, myY-3, 10, 9);
-    ellipse (myX-4, myY-3, 10, 9);
+    ellipse (myX+10, myY+1, 8, 12);
+    ellipse (myX-4, myY+1, 8, 12);
     fill(myColor);
     noStroke();
-    ellipse (myX+10, myY-5, 11, 9);
-    ellipse (myX-4, myY-5, 11, 9);
+    ellipse (myX+10, myY, 9,10);
+    ellipse (myX-4, myY, 9, 10);
     fill(193, 154, 80);
     stroke(0);
     strokeWeight(2);
